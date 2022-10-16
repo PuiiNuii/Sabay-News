@@ -1,0 +1,341 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container-menu{
+    width: 100%;
+    height: 110px;
+    background-color: black;
+}
+.logo{
+    width: 10%;
+    height: 100%;
+    /* background-color: aqua; */
+    float: left;
+    margin-left: 150px;
+}
+.ads{
+    width: 50%;
+    height: 80%;
+    /* background-color: blueviolet; */
+    float: left;
+    margin-left: 250px;
+    margin-top: 10px;
+}
+.logo img{
+    width: 60%;
+    height: 80%;
+    margin-left: 5px;
+    margin-top: 10px;
+}
+.ads{
+    width: 50%;
+    height: 80%;
+    margin-left: 250px;
+    margin-top: 10px;
+}
+.ads img{
+    width: 100%;
+    height: 100%;
+}
+.menu{
+    width: 100%;
+    height: 50px;
+    background-color: rgba(255, 4, 4, 0.865);
+    position: sticky;
+    top: 0;
+}
+.menu ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    margin-left: 150px;
+}
+.menu ul li{
+    float: left;
+    margin-left: 10px;
+}
+.menu ul li a{
+    display: block;
+    text-decoration: none;
+    padding: 7px 7px;
+    font-family: 'Koulen',cursive;
+    color: rgba(245, 245, 245, 0.574);
+    font-size: 20px;
+    font-weight: bold;
+}
+.menu ul li a:hover{
+color: rgb(255, 255, 255);
+}
+.container{
+    width: 1100px;
+    height: 500px;
+    /* background-color: aqua; */
+    margin-top: 13px;
+    float: left;
+    margin-left: 160px;
+}
+.container2{
+    width: 75%;
+    height: 100%;
+    background-color: blue;
+    float: left;
+}
+.topleft{
+    width: 480px;
+    height: 50%;
+    background-color: rgb(255, 1, 200);
+    float: left;
+}
+.topright{
+    width: 345px;
+    height: 50%;
+    background-color: yellow;
+    float: left;
+}
+.downleft{
+    width: 480px;
+    height: 50%;
+    background-color: tomato;
+    float: left;
+}
+.downright{
+    width: 345px;
+    height: 50%;
+    background-color: springgreen;
+    float: left;
+}
+.container3{
+    background-color: tan;
+    width: 24%;
+    height: 100%;
+    float: left;
+    margin-left: 11px;
+}
+.topright2{
+    width: 100%;
+    height: 50%;
+    background-color: thistle;
+}
+.downright2{
+    width: 100%;
+    height: 50%;
+    background-color: seagreen;
+}
+.topright2 img{
+    width: 100%;
+    height: 100%;
+}
+.downright2 img{
+    width: 100%;
+    height: 100%;
+}
+.topleft img{
+    width: 100%;
+    height: 100%;
+}
+.topright img{
+    width: 100%;
+    height: 100%;
+}
+.downleft img{
+    width: 100%;
+    height: 100%;
+}
+.downright img{
+    width: 100%;
+    height: 100%;
+}
+.video{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+}
+.topleft span{
+    color: black;
+    background-color: rgb(241, 34, 103);
+    padding: px;
+    padding-left: 17px;
+    padding-right: 25px;
+    clip-path: polygon(0 0, 74% 0, 100% 100%, 0% 100%);
+    margin-top: 5px;
+    position: absolute;
+}
+.topright span{
+    color: black;
+    background-color: rgb(46, 131, 243);
+    padding: px;
+    padding-left: 17px;
+    padding-right: 25px;
+    clip-path: polygon(0 0, 74% 0, 100% 100%, 0% 100%);
+    margin-top: 5px;
+    position: absolute;
+}
+.downleft span{
+    color: black;
+    background-color: rgb(225, 225, 225);
+    padding: px;
+    padding-left: 17px;
+    padding-right: 25px;
+    clip-path: polygon(0 0, 74% 0, 100% 100%, 0% 100%);
+    margin-top: 5px;
+    position: absolute;
+}
+.downright span{
+    color: black;
+    background-color: rgb(105, 35, 234);
+    padding: px;
+    padding-left: 17px;
+    padding-right: 25px;
+    clip-path: polygon(0 0, 74% 0, 100% 100%, 0% 100%);
+    margin-top: 5px;
+    position: absolute;
+}
+.topleft .date p{
+    position: absolute;
+    width: 100%;
+    height: 50px;
+    top: 200px;
+    color: white;
+    margin-left: 10px;
+}
+.topright .date p{
+    position: absolute;
+    width: 100%;
+    height: 50px;
+    top: 200px;
+    color: white;
+    margin-left: 10px;
+}
+.downleft .date p{
+    position: absolute;
+    width: 100%;
+    height: 50px;
+    top: 450px;
+    color: white;
+    margin-left: 10px;
+}
+.downright .date p{
+    position: absolute;
+    width: 100%;
+    height: 50px;
+    top: 450px;
+    color: white;
+    margin-left: 10px;
+}
+.topleft .top{
+    position: absolute;
+    width: 33.4%;
+    height: 30.5%;
+    background-color: rgba(0, 0, 0, 0.338);
+}
+.topleft:hover .top{
+    position: absolute;
+    width: 33.4%;
+    height: 30.5%;
+    background-color: black;
+    background: linear-gradient(rgba(41, 41, 41, 0.298), #000);
+}
+.topright .top{
+    position: absolute;
+    width: 24%;
+    height: 30.5%;
+    background-color: rgba(0, 0, 0, 0.338);
+    transform: translateY(-0.01%);
+}
+.topright:hover .top{
+    position: absolute;
+    width: 24%;
+    height: 30.5%;
+    background-color: black;
+    background: linear-gradient(rgba(41, 41, 41, 0.298), #000);
+}
+.downleft .top{
+    position: absolute;
+    width: 33.4%;
+    height: 30.5%;
+    background-color: rgba(0, 0, 0, 0.338);
+    transform: translateY(-0.01%);
+}
+.downleft:hover .top{
+    position: absolute;
+    width: 33.4%;
+    height: 30.5%;
+    background-color: black;
+    background: linear-gradient(rgba(41, 41, 41, 0.298), #000);
+}
+.downright .top{
+    position: absolute;
+    width: 24%;
+    height: 30.5%;
+    background-color: rgba(0, 0, 0, 0.338);
+    transform: translateY(-0.01%);
+}
+.downright:hover .top{
+    position: absolute;
+    width: 24%;
+    height: 30.5%;
+    background-color: black;
+    background: linear-gradient(rgba(41, 41, 41, 0.298), #000);
+}
+.topleft h3{
+    transform: translateY(-120%);
+    position: relative;
+    color: white;
+    font-size: 20px;
+    margin-top: 10px;
+    margin-left: 10px;
+    transition: all 0.7s;
+    bottom: 40px;
+}
+.topright h3{
+    transform: translateY(-90%);
+    position: relative;
+    color: white;
+    font-size: 20px
+    margin-top: 10px;
+    margin-left: 10px;
+    bottom: 40px;
+    transition: all 0.7s;
+}
+.downleft h3{
+    transform: translateY(-110%);
+    position: relative;
+    color: white;
+    font-size: 20px;
+    margin-top: 10px;
+    margin-left: 10px;
+    transition: all 0.7s;
+    bottom: 40px;
+}
+.downright h3{
+    transform: translateY(-105%);
+    position: relative;
+    color: white;
+    font-size: 20px;
+    margin-top: 10px;
+    margin-left: 10px;
+    bottom: 40px;
+    transition: all 0.7s;
+}  
+.topleft:hover h3{
+    color: red;
+    transition: all 0.7s;
+    bottom: 90px;
+}
+.topright:hover h3{
+    color: red;
+    transition: all 0.7s;
+    bottom: 90px;
+}
+.downleft:hover h3{
+    color: red;
+    transition: all 0.7s;
+    bottom: 90px;
+}    
+.downright:hover h3{
+    color: red;
+    transition: all 0.7s;
+    bottom: 90px;
+}  
