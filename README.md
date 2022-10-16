@@ -1,3 +1,2 @@
-# Sabay-News
-test Saby News
-Click to visit website: https://puiinuii.github.io/Sabay-News/
+http://127.0.0.1:5500/html/Saby.html
+
